@@ -1,0 +1,41 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Testing
+/coverage
+/cypress/screenshots
+/cypress/videos
+
+# Next.js Build Outputs
+/.next/
+/out/
+/build
+
+# Environment Configuration (Local secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# IDE and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
